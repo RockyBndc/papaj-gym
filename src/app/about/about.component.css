@@ -13,7 +13,7 @@ p {
 h1 {
   font-size: 70px;
   line-height: 72px;
-  color: #edb82a;
+  color: #ce9b61;
   font-weight: 500;
 }
 h2 {
@@ -28,7 +28,7 @@ h5 {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   letter-spacing: 5px;
-  color: #edb82a;
+  color: #ce9b61;
   font-weight: bold;
 }
 h6 {
@@ -44,22 +44,6 @@ h6 {
   font-size: 16px;
   letter-spacing: 0.15px;
 }
-.mask-custom {
-  backdrop-filter: blur(50px);
-  background-color: #73221679;
-}
-header .nav-link {
-  font-family: 'Roboto', sans-serif;
-  color: #000000;
-}
-header .nav-link:hover {
-  color: #edb82a;
-  font-weight: 300px;
-}
-header .nav-link:active {
-  color: #edb82a;
-  font-weight: 300px;
-}
 
 /*--------------------------------------------------------------
 # About
@@ -68,5 +52,5 @@ header .nav-link:active {
   margin-top: 80px;
 }
 .about-pic {
-  height: 400px;
+  height: 450px;
 }
