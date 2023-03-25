@@ -1,0 +1,78 @@
+<!-- ======= Header ======= -->
+<header>
+  <div class="wrapper">
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a href="/"
+          ><img
+            src="https://stackblitz.com/storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeHFCQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--45e7ac77e1f6a8ce70f4feeee436668d1f0ef0f0/Est.2023.png"
+            height="70"
+            alt="Papa J's Fitness"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main_nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="main_nav">
+          <ul class="container navbar-nav mr-auto w-100 justify-content-end">
+            <li class="nav-item mx-2">
+              <a routerLink="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#gallery" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#membership" class="nav-link">Membership</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a
+                routerLink="/memDetails"
+                class="nav-link active"
+                aria-current="page"
+                >Register</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- ======= Hero Section ======= -->
+<section>
+  <div class="home" id="home">
+    <div id="herocontent">
+      <div class="container col-10" id="hero">
+        <div class="hero-content text-center">
+          <h2>Welcome to</h2>
+          <h1><span style="color: #ce9b61;">Papa J's</span> Fitness!</h1>
+          <h6 class="my-5">Shape your Body. Train Harder, Be Stronger.</h6>
+
+          <div class="col-md-2 mx-auto">
+            <a href="#about-history"
+              ><button type="button" class="btn">See More</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <router-outlet> </router-outlet>
+</div>

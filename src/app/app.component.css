@@ -1,0 +1,99 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+  color: #121212;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  text-align: justify;
+}
+h1 {
+  font-size: 70px;
+  line-height: 72px;
+  color: white;
+  font-weight: bolder;
+}
+h2 {
+  font-size: 40px;
+  line-height: 70px;
+  color: rgb(199, 199, 199);
+}
+h3 {
+  font-size: 48px;
+  color: #ce9b61;
+}
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  letter-spacing: 5px;
+  color: #ce9b61;
+}
+h6 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  font-weight: 100;
+  color: rgb(199, 199, 199);
+}
+.sub-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+}
+.mask-custom {
+  backdrop-filter: blur(50px);
+  background-color: #73221679;
+}
+header .nav-link {
+  font-family: 'Roboto', sans-serif;
+  color: #000000;
+}
+header .nav-link:hover {
+  color: #ce9b61;
+  font-weight: 300px;
+}
+header .nav-link:active {
+  color: #ce9b61;
+  font-weight: 300px;
+}
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#herocontent {
+  background: url('https://stackblitz.com/storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeXVCQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e3c9ea53c74940247e7ceda81b5f946019ebf11f/cover-photo.png')
+    repeat scroll center center/cover;
+  width: 100%;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+#hero .hero-content {
+  height: 100vh;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-content button {
+  margin-top: 60px;
+  background-color: #7c0000;
+  color: #ce9b61;
+  border-radius: 2px;
+  width: 110px;
+  font-family: 'Roboto', sans-serif;
+  opacity: 80%;
+}
+
+.hero-content button:hover {
+  color: white;
+  background-color: #ce9b61;
+  opacity: 100%;
+}
